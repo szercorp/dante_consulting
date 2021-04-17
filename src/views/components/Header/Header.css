@@ -1,0 +1,110 @@
+.header-container {
+  width: 100%;
+  height: 150px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(37, 64, 118, 0.05);
+  padding: 40px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  width: 147px;
+  height: 71px;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+}
+
+.menuItems-container {
+  width: 398px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item {
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #254076;
+}
+
+/* Media Queries */
+/* 
+  ##Device = Most of the Smartphones Mobiles
+  ##Screen = B/w till 479px
+*/
+@media all and (max-width: 480px) {
+  .header-container {
+    width: 100%;
+    height: 144px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(37, 64, 118, 0.05);
+    padding: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-container {
+    width: 91px;
+    height: 44px;
+  }
+
+  .logo-image {
+    display: block;
+  }
+
+  .menuItems-container {
+    display: none;
+  }
+}
+
+/* 
+  ##Device = Tablets, iPads, Screens till 1366px
+  ##Screen = B/w 768px to 1366px
+*/
+@media all and (min-width: 768px) and (max-width: 1366px) {
+  .header-container {
+    width: 100%;
+    height: 105px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(37, 64, 118, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 100px;
+  }
+
+  .logo-container {
+    width: 113px;
+    height: 55px;
+  }
+
+  .logo-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .menuItems-container {
+    width: 350px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green; */
+  }
+
+  .menu-item {
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #254076;
+  }
+}
