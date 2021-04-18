@@ -86,3 +86,14 @@
     display: block;
   }
 }
+
+/* 
+  ##Device = Big smartphones, small tablets
+  ##Screen = B/w between 481px and 767px
+*/
+@media all and (min-width: 481px) and (max-width: 767px) {
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    display: block;
+  }
+}

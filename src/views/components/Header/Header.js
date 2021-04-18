@@ -1,9 +1,28 @@
+import { useState } from "react";
+import useDocumentScrollThrottled from "../../../libs/useDocumentScrollThrottled";
 import Logo from "assets/images/logos/Logo.svg";
 import "./Header.css";
 
 const Header = () => {
+  const [hideHeader, setHideHeader] = useState(false);
+
+  const MINIMUM_SCROLL = 80;
+  const TIMEOUT_DELAY = 100;
+
+  useDocumentScrollThrottled((callbackData) => {
+    const { previousScrollTop, currentScrollTop } = callbackData;
+    const isScrolledDown = previousScrollTop < currentScrollTop;
+    const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL;
+
+    setTimeout(() => {
+      setHideHeader(isScrolledDown && isMinimumScrolled);
+    }, TIMEOUT_DELAY);
+  });
+
+  const hiddenStyle = hideHeader ? "hidden" : "";
+
   return (
-    <div className="header-container">
+    <header className={`header-container ${hiddenStyle}`}>
       <div className="logo-container">
         <img src={Logo} className="logo-image" alt="logo" />
       </div>
@@ -14,7 +33,7 @@ const Header = () => {
         <li className="menu-item">Clients</li>
         <li className="menu-item">Contact</li>
       </ul>
-    </div>
+    </header>
   );
 };
 
