@@ -12,6 +12,7 @@
   left: 0;
   transform: translateY(0);
   transition: transform 0.3s ease;
+  z-index: 1;
 }
 
 .header-container.hidden {
@@ -37,9 +38,18 @@
 
 .menu-item {
   list-style-type: none;
+  text-decoration: none;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
+  color: #254076;
+}
+
+.menuItem-link {
+  text-decoration: none;
+}
+
+.menuItem-link:visited {
   color: #254076;
 }
 
@@ -135,7 +145,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: green; */
   }
 
   .menu-item {

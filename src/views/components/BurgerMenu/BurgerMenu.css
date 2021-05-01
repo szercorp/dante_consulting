@@ -20,14 +20,14 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+  height: 44px;
+  width: 44px;
 }
 
 /* Color/shape of close button cross */
-.bm-cross {
+/* .bm-cross {
   background: #ffffff;
-}
+} */
 
 /*
   Sidebar wrapper styles
@@ -75,6 +75,13 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  color: #ffffff;
+}
+
+.burgerMenuItem-link {
+  text-decoration: none;
+}
+.burgerMenuItem-link:visited {
   color: #ffffff;
 }
 

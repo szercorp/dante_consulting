@@ -6,8 +6,8 @@ import "./Header.css";
 const Header = () => {
   const [hideHeader, setHideHeader] = useState(false);
 
-  const MINIMUM_SCROLL = 80;
-  const TIMEOUT_DELAY = 100;
+  const MINIMUM_SCROLL = 100;
+  const TIMEOUT_DELAY = 25;
 
   useDocumentScrollThrottled((callbackData) => {
     const { previousScrollTop, currentScrollTop } = callbackData;
@@ -27,11 +27,31 @@ const Header = () => {
         <img src={Logo} className="logo-image" alt="logo" />
       </div>
       <ul className="menuItems-container">
-        <li className="menu-item">About</li>
-        <li className="menu-item">Services</li>
-        <li className="menu-item">People</li>
-        <li className="menu-item">Clients</li>
-        <li className="menu-item">Contact</li>
+        <li className="menu-item">
+          <a className="menuItem-link" href="#about">
+            About
+          </a>
+        </li>
+        <li className="menu-item">
+          <a className="menuItem-link" href="#services">
+            Services
+          </a>
+        </li>
+        <li className="menu-item">
+          <a className="menuItem-link" href="#people">
+            People
+          </a>
+        </li>
+        <li className="menu-item">
+          <a className="menuItem-link" href="#clients">
+            Clients
+          </a>
+        </li>
+        <li className="menu-item">
+          <a className="menuItem-link" href="#contact">
+            Contact
+          </a>
+        </li>
       </ul>
     </header>
   );

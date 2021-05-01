@@ -2,10 +2,15 @@ import "./People.css";
 
 const People = () => {
   return (
-    <div className="people-container">
+    <div className="people-container" id="people">
       <div className="people-contents">
         <h1 className="people-title">People</h1>
-        <p className="people-text">
+        <p
+          className="people-text"
+          data-aos="slide-up"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+        >
           Dante Consulting team consists of high caliber individuals of the
           Greek NPL and REO market, with extensive and hands-on experience of
           the industry and robust ability both to apply{" "}
@@ -19,7 +24,19 @@ const People = () => {
           order to offer clients a unique skill-set with regards NPL portfolio
           management.
         </p>
-        <button className="people-button">View Sonia's Profile</button>
+        <button
+          className="people-button"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
+          <a
+            className="peopleButton-link"
+            href="https://www.linkedin.com/in/sonia-gerogianni-llm/"
+          >
+            View Sonia's profile
+          </a>
+        </button>
       </div>
     </div>
   );

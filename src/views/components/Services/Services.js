@@ -3,10 +3,15 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services-container">
+    <div className="services-container" id="services">
       <div className="services-contents">
         <h1 className="services-title">Services</h1>
-        <p className="services-text">
+        <p
+          className="services-text"
+          data-aos="slide-up"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+        >
           <h1 className="servicesText-title">
             1. Established and start up business consulting
           </h1>
@@ -33,8 +38,21 @@ const Services = () => {
             potential investments.
           </h2>
         </p>
-        <img src={Divider} className="divider-icon" alt="divider" />
-        <p className="services-text" id="text2">
+        <img
+          src={Divider}
+          className="divider-icon"
+          alt="divider"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        />
+        <p
+          className="services-text"
+          id="text2"
+          data-aos="slide-up"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+        >
           <h1 className="servicesText-title">2. Building infrastructures</h1>
           <h2 className="servicesText-content">
             ∙ Consult on infrastructures and tools needed for the management of
@@ -53,8 +71,21 @@ const Services = () => {
             and offer input on necessary metrics
           </h2>
         </p>
-        <img src={Divider} className="divider-icon" alt="divider" />
-        <p className="services-text" id="text3">
+        <img
+          src={Divider}
+          className="divider-icon"
+          alt="divider"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        />
+        <p
+          className="services-text"
+          id="text3"
+          data-aos="slide-up"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+        >
           <h1 className="servicesText-title">
             3. Business development and market research
           </h1>
