@@ -53,7 +53,7 @@
 }
 
 #clientCard3 {
-  align-self: flex-end;
+  /* align-self: flex-end; */
 }
 #clientCard4 {
   align-self: flex-end;
@@ -114,18 +114,18 @@
   }
 
   #clientCard1 {
-    order: 1;
+    /* order: 1; */
   }
   #clientCard2 {
-    order: 3;
+    /* order: 3; */
   }
 
   #clientCard3 {
-    order: 2;
+    /* order: 2; */
     align-self: center;
   }
   #clientCard4 {
-    order: 4;
+    /* order: 4; */
     align-self: center;
   }
 }
@@ -183,18 +183,18 @@
   }
 
   #clientCard1 {
-    order: 1;
+    /* order: 1; */
   }
   #clientCard2 {
-    order: 3;
+    /* order: 3; */
   }
 
   #clientCard3 {
-    order: 2;
+    /* order: 2; */
     align-self: center;
   }
   #clientCard4 {
-    order: 4;
+    /* order: 4; */
     align-self: center;
   }
 }

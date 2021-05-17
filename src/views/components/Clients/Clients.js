@@ -28,6 +28,15 @@ const Clients = () => {
               <img src={Card1Logo} alt="card1" />
             </div>
           </a>
+          <div
+            className="clients-card"
+            id="clientCard3"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="700"
+          >
+            <img src={Card2Logo} alt="card2" />
+          </div>
           <a href="http://www.karmaconsulting.gr/">
             <div
               className="clients-card"
@@ -39,15 +48,7 @@ const Clients = () => {
               <img src={Card3Logo} alt="card3" />
             </div>
           </a>
-          <div
-            className="clients-card"
-            id="clientCard3"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="700"
-          >
-            <img src={Card2Logo} alt="card2" />
-          </div>
+
           <a href="https://dialecticanet.com/">
             <div
               className="clients-card"
