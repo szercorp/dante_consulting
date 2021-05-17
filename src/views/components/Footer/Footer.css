@@ -3,7 +3,8 @@
   height: 420px;
   background: url("assets/images/backgrounds/Footer-background.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-attachment: scroll;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -22,7 +23,7 @@
 /* Media Queries */
 /* 
   ##Device = Most of the Smartphones Mobiles
-  ##Screen = B/w till 479px
+  ##Screen = B/w till 480px
 */
 @media all and (max-width: 480px) {
   .footer-container {
@@ -30,7 +31,8 @@
     height: 316px;
     background: url("assets/images/backgrounds/Footer-mobileBackground.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;

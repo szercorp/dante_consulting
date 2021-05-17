@@ -3,7 +3,8 @@
   height: 621px;
   background: url("assets/images/backgrounds/People-background.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-attachment: scroll;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -22,11 +23,11 @@
 .people-title {
   width: 109px;
   height: 45px;
-  font-weight: bold;
   font-size: 30px;
   line-height: 45px;
   text-align: right;
   color: #ffffff;
+  font-family: PoppinsBold;
 }
 
 .people-text {
@@ -55,6 +56,11 @@
 }
 
 .peopleButton-link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #163e75;
   text-decoration: none;
 }
 
@@ -63,14 +69,18 @@
 }
 
 /* Media Queries */
-/* Mobile */
+/* 
+  ##Device = Most of the Smartphones Mobiles
+  ##Screen = B/w till 480px
+*/
 @media all and (max-width: 480px) {
   .people-container {
     width: 100%;
     height: 611px;
     background: url("assets/images/backgrounds/People-mobileBackground.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: scroll;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -180,6 +190,10 @@
   }
 }
 
+/* 
+  ##Device = Big tablets, small laptops
+  ##Screen = B/w between 768px and 1024px
+*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .people-container {
     width: 100%;

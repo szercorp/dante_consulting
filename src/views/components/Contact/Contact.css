@@ -17,6 +17,7 @@
   line-height: 45px;
   text-align: center;
   color: #254076;
+  font-family: PoppinsBold;
 }
 
 .contactCards-container {
@@ -79,6 +80,7 @@
 }
 
 .contactCardButton-link {
+  font-weight: bold;
   text-decoration: none;
   color: #ffffff;
 }
@@ -88,7 +90,10 @@
 }
 
 /* Media Queries */
-/* Mobile */
+/* 
+  ##Device = Most of the Smartphones Mobiles
+  ##Screen = B/w till 480px
+*/
 @media all and (max-width: 480px) {
   .contact-container {
     width: 100%;
@@ -219,6 +224,10 @@
   }
 }
 
+/* 
+  ##Device = Big tablets, small laptops
+  ##Screen = B/w between 768px and 1024px
+*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .contact-container {
     width: 100%;

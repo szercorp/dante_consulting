@@ -5,11 +5,18 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact-container" id="contact">
-      <h1 className="contact-title">Contact</h1>
+      <h1
+        className="contact-title"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="700"
+      >
+        Contact
+      </h1>
       <div className="contactCards-container">
         <div
           className="contact-card"
-          data-aos="zoom-in"
+          data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="700"
         >
@@ -27,7 +34,7 @@ const Contact = () => {
         </div>
         <div
           className="contact-card"
-          data-aos="zoom-in"
+          data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="700"
         >

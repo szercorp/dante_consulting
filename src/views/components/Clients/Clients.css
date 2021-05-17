@@ -3,7 +3,8 @@
   height: 762px;
   background: url("assets/images/backgrounds/Clients-background.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-attachment: scroll;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -27,6 +28,7 @@
   font-size: 30px;
   line-height: 45px;
   color: #ffffff;
+  font-family: PoppinsBold;
 }
 
 .clientsCards-container {
@@ -58,14 +60,18 @@
 }
 
 /* Media Queries */
-/* Mobile */
+/* 
+  ##Device = Most of the Smartphones Mobiles
+  ##Screen = B/w till 480px
+*/
 @media all and (max-width: 480px) {
   .clients-container {
     width: 100%;
     height: 1180px;
     background: url("assets/images/backgrounds/Clients-mobileBackground.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: scroll;
   }
 
   .clients-contents {
@@ -193,6 +199,10 @@
   }
 }
 
+/* 
+  ##Device = Big tablets, small laptops
+  ##Screen = B/w between 768px and 1023px
+*/
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .clients-container {
     width: 100%;
@@ -243,6 +253,10 @@
   }
 }
 
+/* 
+  ##Device = Small laptops, standard laptops
+  ##Screen = B/w between 1024px and 1366px
+*/
 @media all and (min-width: 1024px) and (max-width: 1366px) {
   .clients-container {
     width: 100%;

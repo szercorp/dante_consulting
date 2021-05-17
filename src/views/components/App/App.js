@@ -1,5 +1,6 @@
+import { useState } from "react";
+import SideBar from "views/components/SideBar/SideBar";
 import Header from "views/components/Header/Header";
-import BurgerMenu from "views/components/BurgerMenu/BurgerMenu";
 import About from "views/components/About/About";
 import Services from "views/components/Services/Services";
 import People from "views/components/People/People";
@@ -13,10 +14,16 @@ import "./App.css";
 AOS.init();
 
 const App = () => {
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+
+  const showSideBar = () => {
+    console.log("Clicked burger ");
+    setIsSidebarVisible(!isSidebarVisible);
+  };
   return (
     <div className="app-wrapper">
-      <BurgerMenu />
-      <Header />
+      {isSidebarVisible === true && <SideBar showSideBar={showSideBar} />}
+      <Header showSideBar={showSideBar} />
       <About />
       <Services />
       <People />

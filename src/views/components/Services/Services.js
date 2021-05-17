@@ -5,10 +5,17 @@ const Services = () => {
   return (
     <div className="services-container" id="services">
       <div className="services-contents">
-        <h1 className="services-title">Services</h1>
+        <h1
+          className="services-title"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+        >
+          Services
+        </h1>
         <p
           className="services-text"
-          data-aos="slide-up"
+          data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="700"
         >
@@ -44,12 +51,12 @@ const Services = () => {
           alt="divider"
           data-aos="zoom-in"
           data-aos-easing="linear"
-          data-aos-duration="500"
+          data-aos-duration="700"
         />
         <p
           className="services-text"
           id="text2"
-          data-aos="slide-up"
+          data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="700"
         >
@@ -77,12 +84,12 @@ const Services = () => {
           alt="divider"
           data-aos="zoom-in"
           data-aos-easing="linear"
-          data-aos-duration="500"
+          data-aos-duration="700"
         />
         <p
           className="services-text"
           id="text3"
-          data-aos="slide-up"
+          data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="700"
         >

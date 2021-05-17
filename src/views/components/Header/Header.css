@@ -34,6 +34,7 @@
   height: 24px;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .menu-item {
@@ -43,20 +44,37 @@
   font-size: 16px;
   line-height: 24px;
   color: #254076;
+  float: left;
+  display: block;
+  text-align: center;
+  border-bottom: 3px solid transparent;
 }
 
 .menuItem-link {
   text-decoration: none;
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #254076;
 }
 
 .menuItem-link:visited {
   color: #254076;
 }
 
+.menuItem-link:hover {
+  border-bottom: 3px solid #254076;
+}
+
+.burger-icon {
+  display: none;
+}
+
 /* Media Queries */
 /* 
   ##Device = Most of the Smartphones Mobiles
-  ##Screen = B/w till 479px
+  ##Screen = B/w till 480px
 */
 @media all and (max-width: 480px) {
   .header-container {
@@ -80,6 +98,10 @@
 
   .menuItems-container {
     display: none;
+  }
+
+  .burger-icon {
+    display: block;
   }
 }
 
@@ -109,6 +131,10 @@
 
   .menuItems-container {
     display: none;
+  }
+
+  .burger-icon {
+    display: block;
   }
 }
 

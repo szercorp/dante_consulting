@@ -4,10 +4,17 @@ const People = () => {
   return (
     <div className="people-container" id="people">
       <div className="people-contents">
-        <h1 className="people-title">People</h1>
+        <h1
+          className="people-title"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+        >
+          People
+        </h1>
         <p
           className="people-text"
-          data-aos="slide-up"
+          data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="700"
         >
@@ -26,9 +33,9 @@ const People = () => {
         </p>
         <button
           className="people-button"
-          data-aos="zoom-in"
+          data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="500"
+          data-aos-duration="700"
         >
           <a
             className="peopleButton-link"

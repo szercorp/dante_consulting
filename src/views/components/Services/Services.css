@@ -15,10 +15,10 @@
 .services-title {
   width: 100%;
   height: 45px;
-  font-weight: bold;
   font-size: 30px;
   line-height: 45px;
   color: #254076;
+  font-family: PoppinsBold;
 }
 
 .services-text {
@@ -38,10 +38,10 @@
 }
 
 .servicesText-title {
-  font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   color: #254076;
+  font-family: PoppinsBold;
 }
 
 .servicesText-content {
@@ -58,7 +58,10 @@
 }
 
 /* Media Queries */
-/* Mobile */
+/* 
+  ##Device = Most of the Smartphones Mobiles
+  ##Screen = B/w till 480px
+*/
 @media all and (max-width: 480px) {
   .services-container {
     width: 100%;
@@ -179,6 +182,10 @@
   }
 }
 
+/* 
+  ##Device = Big tablets, small laptops
+  ##Screen = B/w between 768px and 1024px
+*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .services-container {
     width: 100%;

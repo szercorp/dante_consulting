@@ -8,12 +8,19 @@ const Clients = () => {
   return (
     <div className="clients-container" id="clients">
       <div className="clients-contents">
-        <h1 className="clients-title">Clients</h1>
+        <h1
+          className="clients-title"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="700"
+        >
+          Clients
+        </h1>
         <div className="clientsCards-container">
           <div
             className="clients-card"
             id="clientCard1"
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="700"
           >
@@ -24,7 +31,7 @@ const Clients = () => {
           <div
             className="clients-card"
             id="clientCard2"
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="700"
           >
@@ -35,7 +42,7 @@ const Clients = () => {
           <div
             className="clients-card"
             id="clientCard3"
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="700"
           >
@@ -44,7 +51,7 @@ const Clients = () => {
           <div
             className="clients-card"
             id="clientCard4"
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="700"
           >
