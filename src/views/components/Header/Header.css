@@ -48,6 +48,7 @@
   display: block;
   text-align: center;
   border-bottom: 3px solid transparent;
+  font-family: "PoppinsRegular";
 }
 
 .menuItem-link {

@@ -37,7 +37,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .clients-card {
@@ -54,7 +54,9 @@
 
 #clientCard3 {
   /* align-self: flex-end; */
+  cursor: default;
 }
+
 #clientCard4 {
   align-self: flex-end;
 }
@@ -122,6 +124,7 @@
 
   #clientCard3 {
     /* order: 2; */
+    cursor: default;
     align-self: center;
   }
   #clientCard4 {
@@ -191,6 +194,7 @@
 
   #clientCard3 {
     /* order: 2; */
+    cursor: default;
     align-self: center;
   }
   #clientCard4 {
@@ -251,6 +255,11 @@
     align-items: center;
     justify-content: center;
   }
+
+  #clientCard3 {
+    /* align-self: flex-end; */
+    cursor: default;
+  }
 }
 
 /* 
@@ -277,5 +286,10 @@
     align-items: flex-start;
     justify-content: space-between;
     margin: 0;
+  }
+
+  #clientCard3 {
+    /* align-self: flex-end; */
+    cursor: default;
   }
 }

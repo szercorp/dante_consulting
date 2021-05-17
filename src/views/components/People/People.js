@@ -21,15 +21,20 @@ const People = () => {
           Dante Consulting team consists of high caliber individuals of the
           Greek NPL and REO market, with extensive and hands-on experience of
           the industry and robust ability both to apply{" "}
-          <span style={{ fontWeight: 700 }}>hands-on know how</span> and to
-          offer{" "}
-          <span style={{ fontWeight: 700 }}>out-of-the-box solutions</span>.
-          <span>{<br />}</span>
+          <span style={{ fontFamily: "PoppinsBold" }}>hands-on know how</span>{" "}
+          and to offer{" "}
+          <span style={{ fontFamily: "PoppinsBold" }}>
+            out-of-the-box solutions
+          </span>
+          .<span>{<br />}</span>
           <span>{<br />}</span>
           Dante Consulting was founded by
-          <span style={{ fontWeight: 700 }}> Mrs. Sonia Gerogianni</span>, in
-          order to offer clients a unique skill-set with regards NPL portfolio
-          management.
+          <span style={{ fontFamily: "PoppinsBold" }}>
+            {" "}
+            Mrs. Sonia Gerogianni
+          </span>
+          , in order to offer clients a unique skill-set with regards NPL
+          portfolio management.
         </p>
         <button
           className="people-button"

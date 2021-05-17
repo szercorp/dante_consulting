@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useDocumentScrollThrottled from "../../../libs/useDocumentScrollThrottled";
-import Logo from "assets/images/logos/Logo.svg";
+import Logo from "assets/images/logos/Dante-logo.svg";
 import BurgerMenuIcon from "assets/images/Burger-menu-icon.svg";
 import "./Header.css";
 
