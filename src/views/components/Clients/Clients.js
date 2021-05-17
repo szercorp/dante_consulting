@@ -17,28 +17,28 @@ const Clients = () => {
           Clients
         </h1>
         <div className="clientsCards-container">
-          <div
-            className="clients-card"
-            id="clientCard1"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="700"
-          >
-            <a href="https://www.hipoges.com/en/home-en/">
+          <a href="https://www.hipoges.com/en/home-en/">
+            <div
+              className="clients-card"
+              id="clientCard1"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
               <img src={Card1Logo} alt="card1" />
-            </a>
-          </div>
-          <div
-            className="clients-card"
-            id="clientCard2"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="700"
-          >
-            <a href="http://www.karmaconsulting.gr/">
+            </div>
+          </a>
+          <a href="http://www.karmaconsulting.gr/">
+            <div
+              className="clients-card"
+              id="clientCard2"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
               <img src={Card3Logo} alt="card3" />
-            </a>
-          </div>
+            </div>
+          </a>
           <div
             className="clients-card"
             id="clientCard3"
@@ -48,17 +48,17 @@ const Clients = () => {
           >
             <img src={Card2Logo} alt="card2" />
           </div>
-          <div
-            className="clients-card"
-            id="clientCard4"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="700"
-          >
-            <a href="https://dialecticanet.com/">
+          <a href="https://dialecticanet.com/">
+            <div
+              className="clients-card"
+              id="clientCard4"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
               <img src={Card4Logo} alt="card4" />
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
