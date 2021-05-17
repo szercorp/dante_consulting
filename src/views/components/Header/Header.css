@@ -69,6 +69,11 @@
 
 .burger-icon {
   display: none;
+  cursor: pointer;
+}
+
+.close-icon {
+  cursor: pointer;
 }
 
 /* Media Queries */
