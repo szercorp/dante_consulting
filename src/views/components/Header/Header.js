@@ -1,9 +1,10 @@
 import { useState } from "react";
 import useDocumentScrollThrottled from "../../../libs/useDocumentScrollThrottled";
 import Logo from "assets/images/logos/Logo.svg";
+import BurgerMenuIcon from "assets/images/Burger-menu-icon.svg";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ showSideBar }) => {
   const [hideHeader, setHideHeader] = useState(false);
 
   const MINIMUM_SCROLL = 100;
@@ -53,6 +54,12 @@ const Header = () => {
           </a>
         </li>
       </ul>
+      <img
+        src={BurgerMenuIcon}
+        className="burger-icon"
+        alt="burgerIcon"
+        onClick={showSideBar}
+      />
     </header>
   );
 };
