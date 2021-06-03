@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/dante_consulting/static/css/main.e2eabaa0.chunk.css",
+    "main.js": "/dante_consulting/static/js/main.4786031f.chunk.js",
+    "main.js.map": "/dante_consulting/static/js/main.4786031f.chunk.js.map",
+    "runtime-main.js": "/dante_consulting/static/js/runtime-main.1581d6cd.js",
+    "runtime-main.js.map": "/dante_consulting/static/js/runtime-main.1581d6cd.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/dante_consulting/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.c3058b9b.chunk.js": "/dante_consulting/static/js/2.c3058b9b.chunk.js",
+    "static/js/2.c3058b9b.chunk.js.map": "/dante_consulting/static/js/2.c3058b9b.chunk.js.map",
+    "index.html": "/dante_consulting/index.html",
+    "static/css/2.ae9e5f60.chunk.css.map": "/dante_consulting/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.e2eabaa0.chunk.css.map": "/dante_consulting/static/css/main.e2eabaa0.chunk.css.map",
+    "static/js/2.c3058b9b.chunk.js.LICENSE.txt": "/dante_consulting/static/js/2.c3058b9b.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/dante_consulting/static/media/About-tabletBackground.a657086f.png",
+    "static/media/Burger-menu-icon.e277e6ee.svg": "/dante_consulting/static/media/Burger-menu-icon.e277e6ee.svg",
+    "static/media/Clients.css": "/dante_consulting/static/media/Clients-tabletBackground.2534ca2d.png",
+    "static/media/Dante-logo.9df774ad.svg": "/dante_consulting/static/media/Dante-logo.9df774ad.svg",
+    "static/media/Dialectica.81a0a71f.svg": "/dante_consulting/static/media/Dialectica.81a0a71f.svg",
+    "static/media/Divider-icon.08f1b473.svg": "/dante_consulting/static/media/Divider-icon.08f1b473.svg",
+    "static/media/Footer.css": "/dante_consulting/static/media/Footer-tabletBackground.99f9bd2c.png",
+    "static/media/HipogesHellas.6b2716a1.svg": "/dante_consulting/static/media/HipogesHellas.6b2716a1.svg",
+    "static/media/HipogesIberia.5d30b8a7.svg": "/dante_consulting/static/media/HipogesIberia.5d30b8a7.svg",
+    "static/media/Icon-mapPin.0a22734e.svg": "/dante_consulting/static/media/Icon-mapPin.0a22734e.svg",
+    "static/media/Icon-phone.0575095d.svg": "/dante_consulting/static/media/Icon-phone.0575095d.svg",
+    "static/media/Karma.095d8180.svg": "/dante_consulting/static/media/Karma.095d8180.svg",
+    "static/media/People.css": "/dante_consulting/static/media/People-tabletBackground.37e0ed27.png",
+    "static/media/index.css": "/dante_consulting/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/close-icon.a2add49c.svg": "/dante_consulting/static/media/close-icon.a2add49c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1581d6cd.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.c3058b9b.chunk.js",
+    "static/css/main.e2eabaa0.chunk.css",
+    "static/js/main.4786031f.chunk.js"
+  ]
+}
